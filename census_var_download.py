@@ -21,7 +21,7 @@ import cenpy as cen
 data_path = ''
 
 # Function that retrieves data from Census API
-def get_data(fips, geo_name, geos='block group', api=True. apikey):
+def get_data(fips, geo_name, geos='block group', api=True, apikey):
     
     # Variables (can be set up as 'if' statement to have different variables
     # sets for different scenarios/applications)
